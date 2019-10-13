@@ -1,1 +1,1 @@
-# StorehouseChicago
+# The Storehouse Chicago
