@@ -1,0 +1,166 @@
+@font-face {
+  font-family: "Calluna W01 Regular";
+  src: url("Fonts/942319/bbb8bf0c-7cf7-43e6-ba9b-468044f3f6dc.eot?#iefix");
+  src: url("Fonts/942319/bbb8bf0c-7cf7-43e6-ba9b-468044f3f6dc.eot?#iefix") format("eot")
+}
+
+body, html, #root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  /* color: #CABCB0 */
+  color: whitesmoke;
+}
+
+.container {
+    max-width: 1300px;
+}
+
+.navbar.scrolled {
+  background: #000;
+}
+
+/* width */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+  background: #676862;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+  background: #494948;
+}
+
+.homepageimg:hover {
+  opacity: 0.9
+}
+/* Grey Box CSS */
+.greybox{
+  height: auto;
+  min-height: 500px;
+  padding: 100px;
+  background-color: whitesmoke;
+  text-align: center;
+}
+
+@media (max-width: 1200px) {
+.greybox {
+    height: auto;
+    min-height: 500px;
+    padding-top: 100px;
+    padding-right: 30px;
+    padding-left: 30px
+}
+}
+
+@media (max-width: 876px) {
+  .greybox {
+    height: auto;
+    min-height: 500px;
+    padding-top: 100px;
+    padding-right: 5px;
+    padding-left: 5px
+  }
+  }
+
+@media (max-width: 767px) {
+.greybox {
+    height: auto;
+    min-height: 300px;
+    margin-top: 0px;
+    padding: 20px;
+}
+}
+
+.greybox-mission{
+  height: auto;
+  min-height: 500px;
+  padding: 160px 100px;
+  background-color: whitesmoke;
+  text-align: center;
+}
+
+@media (max-width: 1200px) {
+.greybox-mission {
+    height: auto;
+    min-height: 500px;
+    padding-top: 160px;
+    padding-right: 30px;
+    padding-left: 30px
+}
+}
+
+@media (max-width: 876px) {
+  .greybox-mission {
+    height: auto;
+    min-height: 500px;
+    padding-top: 160px;
+    padding-right: 10px;
+    padding-left: 10px
+  }
+  }
+
+@media (max-width: 767px) {
+.greybox-mission {
+    height: auto;
+    min-height: 300px;
+    margin-top: 0px;
+    padding: 20px;
+}
+}
+/* OUR HEART */
+
+.heart {
+  color: #555;
+}
+
+h1.heart {
+  /* font-size: 16px; */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 1000;
+  letter-spacing: 0.25em;
+  line-height: 1.2;
+  text-transform: uppercase;
+  /* margin: 0.67em 0; */
+}
+
+h5.heart{
+  font-family: 'Vollkorn', serif;
+  font-style: italic;
+}
+
+/* Stats */
+h2.stats{
+  color: #555;
+  margin-top: 50px;
+  margin-bottom: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 42px;
+  line-height: 40px;
+  font-weight: 700;
+  letter-spacing: -3px;
+}
+
+h5.stats-info{
+  font-family: 'Vollkorn', serif;
+  font-style: italic;
+  color: #555;
+}
