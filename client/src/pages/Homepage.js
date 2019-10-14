@@ -33,36 +33,47 @@ class Homepage extends Component {
                             <div className="greybox-mission">
                                 <h1 className="heart">Mission</h1>
                                 <h4 className="heart">
-                                Our mission as <strong style={{ color: "#CABCB0" }}>The Storehouse Chicago</strong> is to come alongside and empower individuals and families in our city to meet their <strong style={{ color: "#CABCB0" }}>short-term needs</strong> so that they can focus on their <strong style={{ color: "#CABCB0" }}>future aspirations</strong>.
+                                    Our mission as <strong style={{ color: "#CABCB0" }}>The Storehouse Chicago</strong> is to come alongside and empower individuals and families in our city to meet their <strong style={{ color: "#CABCB0" }}>short-term needs</strong> so that they can focus on their <strong style={{ color: "#CABCB0" }}>future aspirations</strong>.
                             </h4>
                             </div>
                         </Col>
                     </Row>
                     <Row>
-                    <Col size="lg-2 6">
-                        <span style={{textAlign:"center"}}>
-                        <h2 className="stats">2.7 million</h2>
-                        <h5 className="stats-info">residents in Chicago</h5>
-                        </span>
-                    </Col> 
-                    <Col size="lg-2 6">
-                    <span style={{textAlign:"center"}}>
-                        <h2 className="stats">20.6%</h2>
-                        <h5 className="stats-info">live below the poverty line</h5>
-                        </span>
-                    </Col> 
-                    <Col size="lg-2 6">
-                    <span style={{textAlign:"center"}}>
-                        <h2 className="stats">5,450</h2>
-                        <h5 className="stats-info">individuals are homeless</h5>
-                        </span>
-                    </Col> 
-                    <Col size="lg-2 6">
-                    <span style={{textAlign:"center"}}>
-                        <h2 className="stats">565</h2>
-                        <h5 className="stats-info">families living in shelters</h5>
-                    </span>
-                    </Col> 
+                        <Col size="lg-2 6">
+                            <span style={{ textAlign: "center" }}>
+                                <h2 className="stats">2.7 million</h2>
+                                <h5 className="stats-info">residents in Chicago</h5>
+                            </span>
+                        </Col>
+                        <Col size="lg-2 6">
+                            <span style={{ textAlign: "center" }}>
+                                <h2 className="stats">20.6%</h2>
+                                <h5 className="stats-info">live below the poverty line</h5>
+                            </span>
+                        </Col>
+                        <Col size="lg-2 6">
+                            <span style={{ textAlign: "center" }}>
+                                <h2 className="stats">5,450</h2>
+                                <h5 style={{ marginBottom: "35px" }} className="stats-info">individuals are homeless</h5>
+                            </span>
+                        </Col>
+                        <Col size="lg-2 6">
+                            <span style={{ textAlign: "center" }}>
+                                <h2 className="stats">565</h2>
+                                <h5 style={{ marginBottom: "35px" }} className="stats-info">families living in shelters</h5>
+                            </span>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col size="md-4 sm-8 9">
+                            <img className="homepage-sponsoree" src="/images/sponsoree1.jpg"></img>
+                        </Col>
+                        <Col size="md-4 sm-8 9">
+                            <img className="homepage-sponsoree" src="/images/sponsoree2.jpg"></img>
+                        </Col>
+                        <Col size="md-4 sm-8 9">
+                            <img className="homepage-sponsoree" src="/images/sponsoree3.jpg"></img>
+                        </Col>
                     </Row>
                 </Container>
             </>

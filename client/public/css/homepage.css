@@ -164,3 +164,13 @@ h5.stats-info{
   font-style: italic;
   color: #555;
 }
+
+/* Sponsorees */
+.homepage-sponsoree{
+  width: 100%;
+  transition: .5s ease;
+}
+
+.homepage-sponsoree:hover{
+  opacity: 0.4;
+}
