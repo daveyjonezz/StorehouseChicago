@@ -1,13 +1,11 @@
 import React, { Component } from "react";
 import { Col, Row, Container } from "../components/Grid";
 import Jumbotron from "../components/Jumbotron";
-import Spacer from "../components/Spacer"
 
 class Homepage extends Component {
     render() {
         return (
             <>
-                {/* <Spacer/> */}
                 <Jumbotron>
                 </Jumbotron>
                 <Container>
@@ -64,15 +62,40 @@ class Homepage extends Component {
                             </span>
                         </Col>
                     </Row>
+                    {/* <Row>
+                        <Col size="md-12 sm-8 9">
+                            <div className="greybox-stories">
+                                <h2>Hear Their Stories</h2>
+                            </div>
+                        </Col>
+                    </Row> */}
                     <Row>
                         <Col size="md-4 sm-8 9">
-                            <img className="homepage-sponsoree" src="/images/sponsoree1.jpg"></img>
+                            <figure class="sponsoreeHover">
+                                <img className="homepage-sponsoree" src="/images/sponsoree1.jpg"></img>
+                                <figcaption>
+                                    <h3>Jimi <strong style={{ color: "#CABCB0" }}>Loc</strong></h3>
+                                    <h4>Hear his story</h4>
+                                </figcaption>
+                            </figure>
                         </Col>
                         <Col size="md-4 sm-8 9">
-                            <img className="homepage-sponsoree" src="/images/sponsoree2.jpg"></img>
+                        <figure class="sponsoreeHover">
+                                <img className="homepage-sponsoree" src="/images/sponsoree2.jpg"></img>
+                                <figcaption>
+                                    <h3>Adi <strong style={{ color: "#CABCB0" }}>Cepela</strong></h3>
+                                    <h4>Hear her story</h4>
+                                </figcaption>
+                            </figure>
                         </Col>
                         <Col size="md-4 sm-8 9">
-                            <img className="homepage-sponsoree" src="/images/sponsoree3.jpg"></img>
+                        <figure class="sponsoreeHover">
+                                <img className="homepage-sponsoree" src="/images/sponsoree3.jpg"></img>
+                                <figcaption>
+                                    <h3>Jenni &#38; Davis <strong style={{ color: "#CABCB0" }}>Birsan</strong></h3>
+                                    <h4>Hear their story</h4>
+                                </figcaption>
+                            </figure>
                         </Col>
                     </Row>
                 </Container>
