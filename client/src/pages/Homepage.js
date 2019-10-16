@@ -80,7 +80,7 @@ class Homepage extends Component {
                             </figure>
                         </Col>
                         <Col size="md-4 sm-8 9">
-                        <figure class="sponsoreeHover">
+                            <figure class="sponsoreeHover">
                                 <img className="homepage-sponsoree" src="/images/sponsoree2.jpg"></img>
                                 <figcaption>
                                     <h3>Adi <strong style={{ color: "#CABCB0" }}>Cepela</strong></h3>
@@ -89,13 +89,57 @@ class Homepage extends Component {
                             </figure>
                         </Col>
                         <Col size="md-4 sm-8 9">
-                        <figure class="sponsoreeHover">
+                            <figure class="sponsoreeHover">
                                 <img className="homepage-sponsoree" src="/images/sponsoree3.jpg"></img>
                                 <figcaption>
                                     <h3>Jenni &#38; Davis <strong style={{ color: "#CABCB0" }}>Birsan</strong></h3>
                                     <h4>Hear their story</h4>
                                 </figcaption>
                             </figure>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col size="md-6 sm-12">
+                            <div className="greybox-whatWeDo">
+                                <h1 className="whatWeDo">What We Do</h1>
+                                <h5 className="whatWeDo">
+                                    We believe everyone has a <strong style={{ color: "#CABCB0" }}>heart</strong> to give. And at The Storehouse Chicago, we want you to know the story of whoever you are <strong style={{ color: "#CABCB0" }}>sowing seeds</strong> for.
+                                    <br></br>
+                                    <br></br>
+                                    As such, we partner with <strong style={{ color: "#CABCB0" }}>homeless and low-income individuals/families</strong> in Chicago to tell their stories and why we are raising money.
+                                     <br></br>
+                                    <br></br>
+                                    Our hope is to demystify what your donations are used for as <strong style={{ color: "#CABCB0" }}>100% of donations and proceeds from merch sales</strong> go towards our partners. But most importantly, we want give our partners the boost they desperately need in their current situation to <strong style={{ color: "#CABCB0" }}>propel them to their future</strong>.
+                            </h5>
+                            </div>
+                        </Col>
+                        <Col size="md-6 sm-12">
+                            <Row>
+                                <Col size="6">
+                                    <span style={{ textAlign: "center" }}>
+                                        <h2 className="stats2">100%</h2>
+                                        <h5 className="stats2-info">of proceeds go towards sponsorships</h5>
+                                    </span>
+                                </Col>
+                                <Col size="6">
+                                    <span style={{ textAlign: "center" }}>
+                                        <h2 className="stats2">$4,500</h2>
+                                        <h5 className="stats2-info">fundraising target</h5>
+                                    </span>
+                                </Col>
+                                <Col size="6">
+                                    <span style={{ textAlign: "center" }}>
+                                        <h2 className="stats2">$240</h2>
+                                        <h5 style={{ marginBottom: "35px" }} className="stats2-info">fundraised</h5>
+                                    </span>
+                                </Col>
+                                <Col size="6">
+                                    <span style={{ textAlign: "center" }}>
+                                        <h2 className="stats2">3</h2>
+                                        <h5 style={{ marginBottom: "35px" }} className="stats2-info">individuals/families partnered</h5>
+                                    </span>
+                                </Col>
+                            </Row>
                         </Col>
                     </Row>
                 </Container>
