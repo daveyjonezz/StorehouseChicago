@@ -6,7 +6,7 @@ class Homepage extends Component {
     render() {
         return (
             <>
-                <Jumbotron>
+                <Jumbotron jumboClass="jumbotron landing">
                 </Jumbotron>
                 <Container>
                     <Row>
@@ -62,13 +62,6 @@ class Homepage extends Component {
                             </span>
                         </Col>
                     </Row>
-                    {/* <Row>
-                        <Col size="md-12 sm-8 9">
-                            <div className="greybox-stories">
-                                <h2>Hear Their Stories</h2>
-                            </div>
-                        </Col>
-                    </Row> */}
                     <Row>
                         <Col size="md-4 sm-8 9">
                             <figure class="sponsoreeHover">
@@ -106,7 +99,7 @@ class Homepage extends Component {
                                     We believe everyone has a <strong style={{ color: "#CABCB0" }}>heart</strong> to give. And at The Storehouse Chicago, we want you to know the story of whoever you are <strong style={{ color: "#CABCB0" }}>sowing seeds</strong> for.
                                     <br></br>
                                     <br></br>
-                                    As such, we partner with <strong style={{ color: "#CABCB0" }}>homeless and low-income individuals/families</strong> in Chicago to tell their stories and why we are raising money.
+                                    As such, we partnered with <strong style={{ color: "#CABCB0" }}>homeless and low-income individuals/families</strong> in Chicago to tell their past stories and future dreams.
                                      <br></br>
                                     <br></br>
                                     Our hope is to demystify what your donations are used for as <strong style={{ color: "#CABCB0" }}>100% of donations and proceeds from merch sales</strong> go towards our partners. But most importantly, we want give our partners the boost they desperately need in their current situation to <strong style={{ color: "#CABCB0" }}>propel them to their future</strong>.
@@ -143,6 +136,11 @@ class Homepage extends Component {
                         </Col>
                     </Row>
                 </Container>
+                <Jumbotron jumboClass="jumbotron merch">
+                    <span className="cl-effect-18">
+                    <a href="#"><h1>Shop Merch</h1></a>
+                    </span>
+                </Jumbotron>
             </>
         );
     }

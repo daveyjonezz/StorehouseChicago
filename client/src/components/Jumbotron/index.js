@@ -1,11 +1,11 @@
 import React from "react";
 import "./style.css";
 
-function Jumbotron({ children }) {
+function Jumbotron({ jumboClass, children }) {
   return (
     <div
       style={{ height: 500, clear: "both", textAlign: "center" }}
-      className="jumbotron"
+      className={jumboClass}
     >
       {children}
     </div>
