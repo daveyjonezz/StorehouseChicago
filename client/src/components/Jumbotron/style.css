@@ -30,7 +30,7 @@
 .merch{
       margin-top: 25px;
        /* Location of the image */
-       background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255,255,255,.1)), url("/images/homepage-image.jpg");
+       background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255,255,255,.1)), url("/images/homepage-merch-image.jpg");
        /* Background image is centered vertically and horizontally at all times */
        background-position: center center;
        /* Background image doesn't tile */

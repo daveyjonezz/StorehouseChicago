@@ -19,10 +19,6 @@ body {
   max-width: 1300px;
 }
 
-.navbar.scrolled {
-  background: #000;
-}
-
 /* width */
 
 ::-webkit-scrollbar {
@@ -61,14 +57,16 @@ body {
   padding: 100px;
   background-color: whitesmoke;
   text-align: center;
+  margin-bottom:25px
 }
 
 .greybox-mission {
   height: auto;
   min-height: 500px;
-  padding: 160px 100px;
+  padding: 100px;
   background-color: whitesmoke;
   text-align: center;
+  margin-bottom:25px
 }
 
 .greybox-whatWeDo {
@@ -92,6 +90,31 @@ body {
   line-height: 1.2;
   text-transform: uppercase;
   margin-bottom: 20px;
+}
+
+/* PLACEHOLDER IMAGES */
+.placeholderImg-1{
+  width:100%;
+  height: auto;
+  min-height: 500px;
+  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255,255,255,.1)), url("/images/peach-mens-1.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-color: #464646;
+  margin-bottom:25px;
+  transition: 1s opacity;
+}
+
+.placeholderImg-2{
+  width:100%;
+  height: auto;
+  min-height: 500px;
+  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255,255,255,.1)), url("/images/storm-womens-1.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-color: #464646;
+  margin-bottom:25px;
+  transition: 1s opacity;
 }
 
 /* OUR HEART */
@@ -129,7 +152,7 @@ h1.whatWeDo {
 
 h2.stats {
   color: #555;
-  margin-top: 50px;
+  margin-top: 25px;
   margin-bottom: 5px;
   font-family: 'Montserrat', sans-serif;
   font-size: 42px;
@@ -175,7 +198,7 @@ h5.stats2-info {
   color: #fff;
   text-align: left;
   font-size: 20px;
-  background: rgb(110, 109, 109);
+  background: rgb(85, 85, 85, 0.6);
   /* opacity: 0.8; */
 }
 
@@ -271,6 +294,88 @@ h5.stats2-info {
   transition-delay: 0.35s;
 }
 
+/* Founders */
+.homepage-founder{
+  width: 100%;
+  border-radius: 50%;
+  margin-top:60px;
+  padding-left: 5px;
+  padding-right: 5px;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.founder .homepage-founder:hover{
+  -webkit-transform: scale(1.04);
+  transform: scale(1.04);
+}
+
+
+.founder h2{
+  color: #555;
+  font-family: 'Montserrat', sans-serif;
+  /* font-size: 42px; */
+  /* line-height: 40px; */
+  font-weight: 1000;
+  letter-spacing: -3px;
+}
+.founder h5{
+  color: #555;
+  font-style: italic;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px
+}
+.founder h6{
+  color: #555;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* DONATE BTN */
+
+.donateBtn {
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 1000;
+  letter-spacing: 0.2em;
+  line-height: 1.2;
+  text-transform: uppercase;
+  border-radius: 4px;
+  color: #555;
+  border: 1px #555 solid;
+  margin-top:5px;
+  background: none;
+  z-index: 1;
+  cursor: pointer;
+  transition:         0.08s ease-in;
+  -o-transition:      0.08s ease-in;
+  -ms-transition:     0.08s ease-in;
+  -moz-transition:    0.08s ease-in;
+  -webkit-transition: 0.08s ease-in;
+}
+
+.donateBtn:hover {
+  color: whitesmoke;
+  border: 1px #CABCB0 solid;
+}
+
+.donateBtn:hover:before {
+  top: 0;
+}
+
+.donateBtn:before {
+  content: "";
+  position: absolute;
+  background: #CABCB0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 100%;
+  z-index: -1;
+  -webkit-transition: top 0.09s ease-in;
+  transition: top 0.09s ease-in;
+}
+
+
 /* MEDIA QUERIES */
 
 @media (max-width: 959px) {
@@ -279,67 +384,20 @@ h5.stats2-info {
   }
 }
 
-@media (max-width: 767px) {
-  h1.whatWeDo {
-    letter-spacing: 0.25em;
-  }
-}
-
-@media (max-width: 1200px) {
-  .greybox {
+@media (max-width: 1280px){
+  .greybox-mission {
     height: auto;
     min-height: 500px;
     padding-top: 100px;
     padding-right: 30px;
     padding-left: 30px
   }
-}
-
-@media (max-width: 876px) {
   .greybox {
     height: auto;
     min-height: 500px;
     padding-top: 100px;
-    padding-right: 5px;
-    padding-left: 5px
-  }
-}
-
-@media (max-width: 767px) {
-  .greybox {
-    height: auto;
-    min-height: 300px;
-    margin-top: 0px;
-    padding: 20px;
-  }
-}
-
-@media (max-width: 1200px) {
-  .greybox-mission {
-    height: auto;
-    min-height: 500px;
-    padding-top: 160px;
     padding-right: 30px;
     padding-left: 30px
-  }
-}
-
-@media (max-width: 876px) {
-  .greybox-mission {
-    height: auto;
-    min-height: 500px;
-    padding-top: 160px;
-    padding-right: 10px;
-    padding-left: 10px
-  }
-}
-
-@media (max-width: 767px) {
-  .greybox-mission {
-    height: auto;
-    min-height: 300px;
-    margin-top: 0px;
-    padding: 20px;
   }
 }
 
@@ -353,6 +411,19 @@ h5.stats2-info {
   }
 }
 
+@media (max-width: 1000px) {
+  .greybox {
+    height: auto;
+    max-height: 500px;
+    padding-top: 75px;
+    padding-right: 20px;
+    padding-left: 20px
+  }
+  .greybox-mission {
+    max-height: 500px;
+  }
+}
+
 @media (max-width: 876px) {
   .greybox-whatWeDo {
     height: auto;
@@ -360,6 +431,20 @@ h5.stats2-info {
     padding-top: 30px;
     padding-right: 10px;
     padding-left: 10px
+  }
+  .greybox-mission {
+    height: auto;
+    min-height: 500px;
+    padding-top: 100px;
+    padding-right: 10px;
+    padding-left: 10px
+  }
+  .greybox {
+    height: auto;
+    min-height: 500px;
+    padding-top: 100px;
+    padding-right: 5px;
+    padding-left: 5px
   }
 }
 
@@ -370,10 +455,34 @@ h5.stats2-info {
     margin-top: 0px;
     padding: 20px;
   }
-}
-
-@media (max-width: 767px) {
+  .greybox {
+    height: auto;
+    min-height: 300px;
+    margin-top: 0px;
+    padding: 50px 20px;
+  }
+  .greybox-mission {
+    height: auto;
+    min-height: 300px;
+    margin-top: 0px;
+    padding: 50px 20px;
+  }
+  .placeholderImg-2{
+    display:none
+  }
   h2.stats2 {
     margin-top: 50px;
+  }
+  h1.whatWeDo {
+    letter-spacing: 0.25em;
+  }
+  .homepage-founder{
+    margin-top: 25px
+  }
+  .founder h6{
+    font-size:15px
+  }
+  .founder h6{
+    font-size:14px
   }
 }
