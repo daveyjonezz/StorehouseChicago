@@ -131,6 +131,11 @@ h1.heart {
   text-transform: uppercase;
 }
 
+h4.heart{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 h5.heart {
   font-family: 'Playfair Display', serif;
   font-style: italic;
