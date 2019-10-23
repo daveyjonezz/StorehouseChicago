@@ -94,7 +94,7 @@ body {
 
 /* PLACEHOLDER IMAGES */
 .placeholderImg-1{
-  width:100%;
+  max-width:730px;
   height: auto;
   min-height: 500px;
   background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255,255,255,.1)), url("/images/peach-mens-1.jpg");
@@ -106,7 +106,7 @@ body {
 }
 
 .placeholderImg-2{
-  width:100%;
+  max-width:730px;
   height: auto;
   min-height: 500px;
   background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255,255,255,.1)), url("/images/storm-womens-1.jpg");

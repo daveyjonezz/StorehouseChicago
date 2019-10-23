@@ -1,0 +1,12 @@
+/* SPONSOREES */
+.sponsoree1{
+max-width:730px;
+  height: auto;
+  min-height: 500px;
+  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255,255,255,.1)), url("/images/sponsoree1.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-color: #464646;
+  margin-bottom:25px;
+  transition: 1s opacity;
+}
