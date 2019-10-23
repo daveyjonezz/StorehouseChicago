@@ -1,0 +1,50 @@
+
+$input-bg-color: #fff;
+$input-text-color: #555;
+$button-bg-color: #CABCB0;
+$button-text-color: whitesmoke;
+//** button
+.btn {
+	display: inline-block;
+	background: transparent;
+	color: inherit;
+	font: inherit;
+	border: 0;
+	outline: 0;
+	padding: 0;
+	transition: all 200ms ease-in;
+	cursor: pointer;
+	
+	&--primary {
+		background: $button-bg-color;
+		color: $button-text-color;
+		border-radius: 2px;
+		padding: 7px 36px;
+		
+		&:hover {
+            background: darken($button-bg-color, 15%);
+            color: whitesmoke;
+		}
+		
+		&:active {
+			background: $button-bg-color;
+		}
+	}
+	
+	&--inside {
+		margin-left: -80px;
+	}
+}
+
+//** form
+.form {	
+	&__field {
+		width: 300px;
+		background: #fff;
+		color: $input-text-color;
+		font: inherit;
+		border: 0;
+		outline: 0;
+		padding: 15px 18px;
+	}
+}

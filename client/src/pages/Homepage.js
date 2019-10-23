@@ -111,7 +111,7 @@ handleFormSubmit = event => {
           </Row>
           <Row>
             <Col size="md-4 sm-8 9">
-              <figure class="sponsoreeHover">
+              <figure className="sponsoreeHover">
                 <img
                   className="homepage-sponsoree"
                   alt="Sponsoree 1"
@@ -126,7 +126,7 @@ handleFormSubmit = event => {
               </figure>
             </Col>
             <Col size="md-4 sm-8 9">
-              <figure class="sponsoreeHover">
+              <figure className="sponsoreeHover">
                 <img
                   className="homepage-sponsoree"
                   alt="Sponsoree 2"
@@ -141,7 +141,7 @@ handleFormSubmit = event => {
               </figure>
             </Col>
             <Col size="md-4 sm-8 9">
-              <figure class="sponsoreeHover">
+              <figure className="sponsoreeHover">
                 <img
                   className="homepage-sponsoree"
                   alt="Sponsoree 3"
@@ -161,7 +161,7 @@ handleFormSubmit = event => {
             <Col size="md-6 sm-12">
               <div className="greybox-whatWeDo">
                 <h1 className="whatWeDo">What We Do</h1>
-                <h5 className="whatWeDo">
+                <h4 className="whatWeDo">
                   We believe everyone has a{" "}
                   <strong style={{ color: "#CABCB0" }}>heart</strong> to give.
                   And at The Storehouse Chicago, we want you to know the story
@@ -181,14 +181,8 @@ handleFormSubmit = event => {
                   <strong style={{ color: "#CABCB0" }}>
                     100% of donations and proceeds from merch sales
                   </strong>{" "}
-                  go towards our partners. But most importantly, we want give
-                  our partners the boost they desperately need in their current
-                  situation to{" "}
-                  <strong style={{ color: "#CABCB0" }}>
-                    propel them to their future
-                  </strong>
-                  .
-                </h5>
+                  go towards our partners.
+                </h4>
               </div>
             </Col>
             <Col size="md-6 sm-12">
@@ -234,8 +228,8 @@ handleFormSubmit = event => {
           </Row>
         </Container>
         <Jumbotron jumboClass="jumbotron merch">
-          <span className="cl-effect-18">
-            <a href="#">
+          <span className="merchCross">
+            <a href="/">
               <h1>Shop Merch</h1>
             </a>
           </span>
@@ -279,7 +273,7 @@ handleFormSubmit = event => {
             </Col>
           </Row>
         </Container>
-        <Footer></Footer>
+        <Footer/>
       </>
     );
   }
