@@ -194,7 +194,7 @@ h5.stats2-info {
 .homepage-sponsoree {
   width: 100%;
 }
-
+@media (min-width: 768px) {
 .sponsoreeHover {
   position: relative;
   display: inline-block;
@@ -264,6 +264,9 @@ h5.stats2-info {
   text-transform: uppercase;
 }
 
+.sponsoreeHover .lastName{
+  color: #CABCB0
+}
 .sponsoreeHover:hover img, .sponsoreeHover.hover img {
   zoom: 1;
   filter: alpha(opacity=20);
@@ -298,7 +301,60 @@ h5.stats2-info {
   -webkit-transition-delay: 0.35s;
   transition-delay: 0.35s;
 }
+}
 
+@media (max-width: 767px) {
+  .sponsoreeHover {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+    color: #fff;
+    text-align: left;
+    font-size: 20px;
+  }
+  
+  .sponsoreeHover figcaption {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 15px 20px;
+  }
+  
+  .sponsoreeHover h3, .sponsoreeHover h4 {
+    margin: 0;
+    font-size: 1.1em;
+    font-weight: normal;
+    opacity: 0;
+  }
+  
+  .sponsoreeHover h4 {
+    font-size: .8em;
+    font-style: italic;
+    font-family: 'Montserrat', serif;
+  }
+  
+  .sponsoreeHover h3 {
+    text-transform: uppercase;
+    color: whitesmoke !important;
+  }
+  
+  .sponsoreeHover:before, .sponsoreeHover:before, .sponsoreeHover:after, .sponsoreeHover:after {
+    opacity: 1;
+  }
+  
+  .sponsoreeHover:before, .sponsoreeHover:before {
+    width: 40px;
+  }
+  
+  .sponsoreeHover:after, .sponsoreeHover:after {
+    height: 40px;
+  }
+  
+  .sponsoreeHover h3, .sponsoreeHover h3, .sponsoreeHoverh4, .sponsoreeHover h4 {
+    opacity: 1;
+  }
+  }
 /* Founders */
 .homepage-founder{
   width: 100%;
@@ -480,7 +536,7 @@ h5.stats2-info {
   }
   h1.whatWeDo {
     letter-spacing: 0.25em;
-    font-size: 2.3rem;
+    font-size: 2.2rem;
   }
   .homepage-founder{
     margin-top: 25px
