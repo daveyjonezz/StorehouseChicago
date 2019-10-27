@@ -133,8 +133,7 @@
 }
 
 @media (max-width: 768px) {
-   .merch .landing {
-   /* background-attachment: initial !important; */
-   background-size: contain;
+   .jumbotron {
+   background-attachment: initial !important;
    }
    }
