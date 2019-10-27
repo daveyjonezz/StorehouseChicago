@@ -26,3 +26,13 @@ export function Col({ size, children }) {
     </div>
   );
 }
+
+export function Col2({ size, children }) {
+  return (
+    <div
+      className={size} 
+    >
+      {children}
+    </div>
+  );
+}
