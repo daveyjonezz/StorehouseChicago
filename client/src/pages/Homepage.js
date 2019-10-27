@@ -120,7 +120,7 @@ handleFormSubmit = event => {
                 ></img>
                 <figcaption>
                   <h3>
-                    Jimi <strong style={{ color: "#CABCB0" }}>Loc</strong>
+                    Jimi <span className="lastName">Loc</span>
                   </h3>
                   <h4>Hear his story</h4>
                 </figcaption>
@@ -137,7 +137,7 @@ handleFormSubmit = event => {
                 ></img>
                 <figcaption>
                   <h3>
-                    Adi <strong style={{ color: "#CABCB0" }}>Cepela</strong>
+                    Adi <span className="lastName">Cepela</span>
                   </h3>
                   <h4>Hear her story</h4>
                 </figcaption>
@@ -155,7 +155,7 @@ handleFormSubmit = event => {
                 <figcaption>
                   <h3>
                     Jenni &#38; Davis{" "}
-                    <strong style={{ color: "#CABCB0" }}>Birsan</strong>
+                    <span className="lastName">Birsan</span>
                   </h3>
                   <h4>Hear their story</h4>
                 </figcaption>
