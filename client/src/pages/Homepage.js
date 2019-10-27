@@ -111,6 +111,7 @@ handleFormSubmit = event => {
           </Row>
           <Row>
             <Col size="md-4 sm-8 9">
+            <a href="/stories">
               <figure className="sponsoreeHover">
                 <img
                   className="homepage-sponsoree"
@@ -124,8 +125,10 @@ handleFormSubmit = event => {
                   <h4>Hear his story</h4>
                 </figcaption>
               </figure>
+              </a>
             </Col>
             <Col size="md-4 sm-8 9">
+            <a href="/stories">
               <figure className="sponsoreeHover">
                 <img
                   className="homepage-sponsoree"
@@ -139,8 +142,10 @@ handleFormSubmit = event => {
                   <h4>Hear her story</h4>
                 </figcaption>
               </figure>
+              </a>
             </Col>
             <Col size="md-4 sm-8 9">
+            <a href="/stories">
               <figure className="sponsoreeHover">
                 <img
                   className="homepage-sponsoree"
@@ -155,6 +160,7 @@ handleFormSubmit = event => {
                   <h4>Hear their story</h4>
                 </figcaption>
               </figure>
+              </a>
             </Col>
           </Row>
           <Row>
@@ -163,8 +169,8 @@ handleFormSubmit = event => {
                 <h1 className="whatWeDo">What We Do</h1>
                 <h4 className="whatWeDo">
                   We believe everyone has a{" "}
-                  <strong style={{ color: "#CABCB0" }}>heart</strong> to give.
-                  And at The Storehouse Chicago, we want you to know the story
+                  <strong style={{ color: "#CABCB0" }}>heart</strong> to give, 
+                  and at The Storehouse Chicago, we want you to know the story
                   of whoever you are{" "}
                   <strong style={{ color: "#CABCB0" }}>sowing seeds</strong>{" "}
                   for.
@@ -236,12 +242,15 @@ handleFormSubmit = event => {
         </Jumbotron>
         <Container>
           <Row>
-            <Col size="sm-6 12">
+            <Col size="md-6 12">
               <div className="greybox-whatWeDo">
                 <h1 className="whatWeDo">Our Story</h1>
+                <h4 className="whatWeDo">In December 2018, we conducted our first outreach effort by packing and delivering shoebox Christmas presents to the homeless throughout Chicago.</h4>
+                <br></br>
+                <h4 className="whatWeDo">Although we plan to continue the shoebox tradition, our heart to build relationships with people.</h4>
               </div>
             </Col>
-            <Col size="sm-3 6">
+            <Col size="md-3 6">
               <span className="founder" style={{ textAlign: "center" }}>
                 <img
                   className="homepage-founder"
@@ -256,7 +265,7 @@ handleFormSubmit = event => {
                 <h5>Co-Founder</h5>
               </span>
             </Col>
-            <Col size="sm-3 6">
+            <Col size="md-3 6">
               <span className="founder" style={{ textAlign: "center" }}>
                 <img
                   className="homepage-founder"

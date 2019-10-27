@@ -118,7 +118,7 @@
   }
 
   .navbar-default.scrolled {
-    background: rgb(85, 85, 85, 0.4);
+    background: rgba(61, 61, 61, 0.8);
   }
 
   .navbar {
@@ -126,7 +126,7 @@
   }
 
   .navbar.scrolled {
-    background: rgb(85, 85, 85, 0.4);
+    background: rgba(61, 61, 61, 0.8);
   }
 
   /* NAV BAR CSS END */
