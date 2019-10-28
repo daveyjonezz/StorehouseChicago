@@ -24,15 +24,12 @@ function Modal(props) {
                                 </select>
 
                                 <label htmlFor="note" style={{paddingTop:"15px"}}>Note:</label>
-                                <textarea className="form-control" rows="5" id="note" name="note" required  value={props.statenote} onChange={props.onChange} placeholder="Be   K i n d :)" ></textarea>
+                                <textarea className="form-control" rows="5" id="note" name="note" required  value={props.statenote} onChange={props.onChange} placeholder="Use this space to say something encouraging to the sponsoree!"></textarea>
                                 <label htmlFor="from" style={{paddingTop:"15px"}}>From:</label>
                                 <input className="form-control" rows="1" id="from" name="from" required  value={props.statefrom}  onChange={props.onChange}   ></input>
                             </div>  
-                            <button type="submit" onClick={props.onClick} className="btn btn-circle waves-light" style={{backgroundColor:"#CABCB0", color: "whitesmoke", padding:"5px"}}><i className="fa fa-share" aria-hidden="true"></i></button>                     
+                            <button type="submit" onClick={props.onClick} className="btn btn-send" style={{backgroundColor:"#e0b462", color: "whitesmoke", padding:"5px"}}><i className="fa fa-send" aria-hidden="true"></i></button>                     
                         </div>
-                        {/* <div className="modal-footer">
-                            <button type="submit" onClick={props.onClick} className="btn btn-outline-light">Send <i className="fa fa-share" aria-hidden="true"></i></button>
-                        </div> */}
                         </form>
                 </div>
             </div>

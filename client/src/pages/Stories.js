@@ -73,6 +73,7 @@ class Stories extends Component {
                                 I don't think so, I'll see when I get there
                                 I hope they're prepared for the Prince of Bel-Air
                             </p>
+                            
                             <button type="button" className="btn btn-circle waves-light" data-toggle="modal" data-target="#noteOfEncouragement" style={{backgroundColor:"#CABCB0", color: "whitesmoke", padding:"5px"}}><i className="fa fa-send" aria-hidden="true"></i> </button>
                     </div>
                     </Col>
@@ -85,7 +86,7 @@ class Stories extends Component {
                     </Col2>
                 <Col2 style={{padding:"0"}} size="col-md-6 order-md-1">
                     <div className="greybox2">
-                    <h2>Jenni and Davis's Story</h2>
+                    <h2>Jenni &#38; Davis's Story</h2>
                     <p className="sponsoree2-story"> 
                                 In West Philadelphia born and raised
                                 On the playground is where I spent most of my days
@@ -110,8 +111,7 @@ class Stories extends Component {
                                 I don't think so, I'll see when I get there
                                 I hope they're prepared for the Prince of Bel-Air
                             </p>
-                            {/* <Button>Note</Button> */}
-                            <button type="button" className="btn btn-circle waves-light" data-toggle="modal" data-target="#noteOfEncouragement" style={{backgroundColor:"#CABCB0", color: "whitesmoke", padding:"5px"}}><i className="fa fa-send" aria-hidden="true"></i> </button>
+                            <button type="button" className="btn waves-light" data-toggle="modal" data-target="#noteOfEncouragement" style={{backgroundColor:"#555", color: "whitesmoke", padding:"5px"}}>Note of Encouragement</button>
                     </div>
                     </Col2>
                 </Row>
