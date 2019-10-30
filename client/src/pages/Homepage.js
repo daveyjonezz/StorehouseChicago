@@ -18,7 +18,7 @@ handleInputChange = event => {
   });
 };
 
-handleFormSubmit = event => {
+handleEmailSubmit = event => {
   event.preventDefault();
   API.email({
       email: this.state.email
@@ -282,7 +282,7 @@ handleFormSubmit = event => {
             </Col>
           </Row>
         </Container>
-        <Footer/>
+        <Footer onChange={this.handleInputChange} stateEmail={this.state.email} onClick={this.handleEmailSubmit}></Footer>
       </>
     );
   }

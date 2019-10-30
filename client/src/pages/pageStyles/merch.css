@@ -1,53 +1,5 @@
-/* ADD TO CART BTN */
-​
-.cartBtn {
-  position: relative;
-  font-size: 20px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 1000;
-  letter-spacing: 0.2em;
-  line-height: 1.2;
-  text-transform: uppercase;
-  border-radius: 4px;
-  color: #555;
-  border: 1px #555 solid;
-  margin-top:5px;
-  background: none;
-  z-index: 1;
-  cursor: pointer;
-  transition:         0.08s ease-in;
-  -o-transition:      0.08s ease-in;
-  -ms-transition:     0.08s ease-in;
-  -moz-transition:    0.08s ease-in;
-  -webkit-transition: 0.08s ease-in;
-}
-​
-.cartBtn:hover {
-  color: whitesmoke;
-  border: 1px #CABCB0 solid;
-}
-​
-.cartBtn:hover:before {
-  top: 0;
-}
-​
-.cartBtn:before {
-  content: "";
-  position: absolute;
-  background: #CABCB0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  top: 100%;
-  z-index: -1;
-  -webkit-transition: top 0.09s ease-in;
-  transition: top 0.09s ease-in;
-}
-
-
-​
 /* MERCH IMAGES */
-.white-1{
+.white-1 {
   width:100%;
   height: auto;
   min-height: 500px;

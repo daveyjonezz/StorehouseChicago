@@ -16,7 +16,7 @@ function Modal(props) {
                     <div className="modal-body">
                             <div className="form-group">
                                 <label htmlFor="recipient">To:</label>
-                                <select className="form-control" id="recipient" name="to" selectedvalue={props.stateto } onChange={props.onChange} >
+                                <select className="form-control" id="recipient" name="to" selectedvalue={props.stateto} onChange={props.onChange} >
                                     <option defaultValue disabled>Choose recipient</option>
                                     <option value="Davis and Jenni">Davis &#38; Jenni Birsan</option>
                                     <option value="Adi Cepela">Adi Cepela</option>
@@ -26,7 +26,7 @@ function Modal(props) {
                                 <label htmlFor="note" style={{paddingTop:"15px"}}>Note:</label>
                                 <textarea className="form-control" rows="5" id="note" name="note" required  value={props.statenote} onChange={props.onChange} placeholder="Use this space to say something encouraging to the sponsoree!"></textarea>
                                 <label htmlFor="from" style={{paddingTop:"15px"}}>From:</label>
-                                <input className="form-control" rows="1" id="from" name="from" required  value={props.statefrom}  onChange={props.onChange}   ></input>
+                                <input className="form-control" rows="1" id="from" name="from" required  value={props.statefrom}  onChange={props.onChange}></input>
                             </div>  
                             <button type="submit" onClick={props.onClick} className="btn btn-send" style={{backgroundColor:"#e0b462", color: "whitesmoke", padding:"5px"}}><i className="fa fa-send" aria-hidden="true"></i></button>                     
                         </div>

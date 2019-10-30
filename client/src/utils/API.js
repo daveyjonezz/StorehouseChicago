@@ -5,5 +5,9 @@ export default {
 createNote: function(noteData){
   console.log(noteData)
   return axios.post("/api/notes", noteData)
+},
+email: function(email){
+  console.log(email)
+  return axios.post("/api/email", email)
 }
 };

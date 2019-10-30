@@ -35,6 +35,17 @@ class Stories extends Component {
             }))
             .catch(err => console.log(err));
     };
+    handleEmailSubmit = event => {
+        event.preventDefault();
+        API.email({
+            email: this.state.email
+        }).then(
+              this.setState({
+              email: ""
+            })
+            )
+            .catch(err => console.log(err));
+      };
 
     render(){
         return(
