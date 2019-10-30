@@ -3,6 +3,7 @@ import { Col, Col2, Row, Container } from "../components/Grid";
 import Jumbotron from "../components/Jumbotron";
 import Footer from "../components/Footer";
 import Modal from "../components/Modal"
+import "./pageStyles/stories.css";
 // import Button from "../components/Button"
 import API from "../utils/API";
 
