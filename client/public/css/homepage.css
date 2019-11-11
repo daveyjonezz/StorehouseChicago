@@ -174,7 +174,7 @@ h5.stats-info {
 
 h2.stats2 {
   color: #555;
-  margin-top: 110px;
+  margin-top: 130px;
   margin-bottom: 5px;
   font-family: 'Montserrat', sans-serif;
   font-size: 42px;
@@ -435,7 +435,6 @@ h5.stats2-info {
   -webkit-transition: top 0.09s ease-in;
   transition: top 0.09s ease-in;
 }
-
 
 /* MEDIA QUERIES */
 
