@@ -50,7 +50,9 @@ class Stories extends Component {
     render(){
         return(
             <span className="stories-page">
-            <Jumbotron jumboClass="jumbotron landing"></Jumbotron>
+            <Jumbotron jumboClass="jumbotron landing">
+            <h1 className="storiesLanding">stor·ies</h1>
+            </Jumbotron>
             <Container>
                 <Row>
                     <Col size="md-6 sm-12">

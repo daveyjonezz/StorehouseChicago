@@ -1,38 +1,86 @@
+
+/*GREY BOX*/
+
+.greybox-merchShop {
+  height: auto;
+  max-height: 400px;
+  padding: 100px;
+  background-color: whitesmoke;
+  text-align: center;
+  margin-bottom:25px
+}
+
+.merch-info {
+  color: #555;
+}
+
+h1.merch-info {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 1000;
+  letter-spacing: 0.25em;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+h4.merch-info{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h5.merch-info {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+}
+
+/*TEXT*/
+.merchLanding{
+  font-size: 80px;
+}
+
+.soldOut{
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  margin: 10px;
+  background-color: #CABCB0;
+  padding-top: 18px;
+  font-size: 12px;
+  font-family:'Montserrat', sans-serif;
+  letter-spacing: 2px;
+  border-radius: 100%;
+  width: 6em;
+  height: 6em;
+}
+
+.detail{
+  color: #1d1d1d;;
+  font-family: "Calluna W01 Regular",'Playfair Display', serif;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.price{
+  color: #6e6e6e;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.hoverContainer{
+  overflow: hidden;
+}
+
 /* MERCH IMAGES */
-.white-1 {
+.storm-2{
   width:100%;
   height: auto;
   min-height: 500px;
-  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255,255,255,.1)), url("/images/white-mens-1.jpg");
+  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255,255,255,.1)), url("/images/storm-womens-1.jpg");
   background-position: center center;
   background-size: cover;
   background-color: #464646;
-  margin-bottom:25px;
+  margin-bottom:10px;
   transition: 1s opacity;
-}
-​
-.white-2{
-  width:100%;
-  height: auto;
-  min-height: 500px;
-  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255,255,255,.1)), url("/images/white-mens-2.jpg");
-  background-position: center center;
-  background-size: cover;
-  background-color: #464646;
-  margin-bottom:25px;
-  transition: 1s opacity;
-}
-​
-.peach-1{
-  width:100%;
-  height: auto;
-  min-height: 500px;
-  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255,255,255,.1)), url("/images/peach-mens-1.jpg");
-  background-position: center center;
-  background-size: cover;
-  background-color: #464646;
-  margin-bottom:25px;
-  transition: 1s opacity;
+  background-attachment: initial !important;
 }
 ​
 .peach-2{
@@ -43,10 +91,23 @@
   background-position: center center;
   background-size: cover;
   background-color: #464646;
-  margin-bottom:25px;
+  margin-bottom:10px;
   transition: 1s opacity;
+  background-attachment: initial !important;
 }
-​
+.peach-1{
+  width:100%;
+  height: auto;
+  min-height: 500px;
+  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255,255,255,.1)), url("/images/peach-mens-1.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-color: #464646;
+  margin-bottom:10px;
+  transition: 1s opacity;
+  background-attachment: initial !important;
+}
+
 .heatherdust-1{
   width:100%;
   height: auto;
@@ -55,8 +116,35 @@
   background-position: center center;
   background-size: cover;
   background-color: #464646;
-  margin-bottom:25px;
+  margin-bottom:10px;
   transition: 1s opacity;
+  background-attachment: initial !important;
+}
+
+.white-2{
+  width:100%;
+  height: auto;
+  min-height: 500px;
+  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255,255,255,.1)), url("/images/white-mens-2.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-color: #464646;
+  margin-bottom:10px;
+  transition: 1s opacity;
+  background-attachment: initial !important;
+}
+
+.storm-1{
+  width:100%;
+  height: auto;
+  min-height: 500px;
+  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255,255,255,.1)), url("/images/storm-womens-2.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-color: #464646;
+  margin-bottom:10px;
+  transition: 1s opacity;
+  background-attachment: initial !important;
 }
 ​
 .heatherdust-2{
@@ -67,30 +155,46 @@
   background-position: center center;
   background-size: cover;
   background-color: #464646;
-  margin-bottom:25px;
+  margin-bottom:10px;
   transition: 1s opacity;
+  background-attachment: initial !important;
 }
-​
-.storm-1{
+
+.white-1 {
   width:100%;
   height: auto;
   min-height: 500px;
-  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255,255,255,.1)), url("/images/storm-womens-2.jpg");
+  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255,255,255,.1)), url("/images/white-mens-1.jpg");
   background-position: center center;
   background-size: cover;
   background-color: #464646;
-  margin-bottom:25px;
+  margin-bottom:10px;
   transition: 1s opacity;
+  background-attachment: initial !important;
 }
-​
-.storm-2{
-  width:100%;
-  height: auto;
-  min-height: 500px;
-  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255,255,255,.1)), url("/images/storm-womens-1.jpg");
-  background-position: center center;
-  background-size: cover;
-  background-color: #464646;
-  margin-bottom:25px;
-  transition: 1s opacity;
-}
+  /* MEDIA QUERIES */
+  
+  @media (max-width: 1280px){
+    .greybox-merchShop {
+      height: auto;
+      max-height: 400px;
+      padding-top: 100px;
+      padding-right: 30px;
+      padding-left: 30px
+    }
+  }
+  
+  @media (max-width: 876px) {
+    .merchLanding{
+      font-size: 65px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    /* .greybox {
+      height: auto;
+      min-height: 300px;
+      margin-top: 0px;
+      padding: 50px 20px;
+    } */
+  }

@@ -86,3 +86,13 @@
   line-height: 1.33;
   float: right
 }
+
+.storiesLanding{
+  font-size: 80px
+}
+
+@media (max-width: 876px) {
+  .storiesLanding{
+    font-size: 65px;
+  }
+}
