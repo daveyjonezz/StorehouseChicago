@@ -55,7 +55,7 @@ handleFormSubmit = event => {
             </Row>
             <Row2>
             <Col2 size="col-lg-4 col-sm-6 col-12 text-center">
-                <div className="heatherdust-1"></div>
+                <a href="/heather-dust-cropped-hoodie"><div className="heatherdust-1"></div></a>
                 <p className="detail">Women's Cropped Hoodie</p>
                 <p className="price">$40</p>
               </Col2>
