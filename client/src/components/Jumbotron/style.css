@@ -27,6 +27,16 @@
    transition: 1s opacity;
 }
 
+.productLanding{
+   background-color: #555;
+   max-height: 75px;
+   padding: 0
+}
+
+.donateJumbotron{
+   max-height: 400px
+}
+
 .merch{
       margin-top: 25px;
        /* Location of the image */
